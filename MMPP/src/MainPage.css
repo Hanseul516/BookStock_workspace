@@ -1,0 +1,158 @@
+/* MainPage.css */
+
+/* 본문상단배너 스타일 */
+#topSector {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  #topSector h1 {
+    font-size: 24px;
+  }
+  
+  #mainSearchbar {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #searchImg {
+    background-color: #007bff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #searchImg img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  #buying,
+  #selling {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* 본문상단네비게이터 스타일 */
+  #mainNavigator {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  #mainNavigator a {
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  #mainNavigator img {
+    width: 85px;
+    height: 76px;
+  }
+  
+  /* 중간 섹션 스타일 */
+  #middleSector {
+    padding: 20px;
+  }
+  
+  #middleSectorTitle {
+    font-size: 20px;
+  }
+  
+  #moreItem {
+    font-size: 16px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  /* 최신 경매 도서 스타일 */
+  #lastestItem1 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #lastestItem1 h3 {
+    font-size: 18px;
+  }
+  
+  #lastestItem2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  #lastestItem2 > div {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #f0f0f0;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #lastestItem2 button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  #lastestItem2 span {
+    font-size: 14px;
+  }
+  
+  /* 북스탁 거래현황 스타일 */
+  #trading {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #trading h1 {
+    font-size: 24px;
+  }
+  
+  #trading h4 {
+    font-size: 16px;
+  }
+  
+  #tradingImg {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  #tradingImg > div {
+    flex: 1;
+    text-align: center;
+  }
+  
+  /* 가이드 스타일 */
+  #guide img {
+    width: 85px;
+    height: 76px;
+    margin-top: 20px;
+  }
+  
+  /* 하단 섹션 스타일 */
+  #bottomSector {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  #blogLink img,
+  #marketingVideo img {
+    width: 85px;
+    height: 76px;
+  }
+  
